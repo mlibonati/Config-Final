@@ -1,0 +1,27 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+
+idRandom: ${random.value}
+
+spring:
+  application:
+    name: serie-service
+
+  data:
+    mongodb:
+      database: serie
+      port: 27017
+      host: localhost
+
+  zipkin:
+    baseUrl: http://localhost:9411/
+
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
