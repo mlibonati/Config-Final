@@ -1,6 +1,6 @@
-Resumen del Examen de Microservicios en Java
-Descripción General
-Este examen evalúa tu comprensión y habilidades en el desarrollo de microservicios en Java, utilizando una arquitectura basada en servicios que incluye un API Gateway, Catalog Service, Eureka Server, Movie Service y Serie Service.
+Resumen del Examen de Microservicios en Java.
+Descripción General:
+Este examen evalúa la comprensión y habilidades en el desarrollo de microservicios en Java, utilizando una arquitectura basada en servicios que incluye un API Gateway, Catalog Service, Eureka Server, Movie Service y Serie Service.
 
 Componentes del sistema
 Puerta de enlace API
